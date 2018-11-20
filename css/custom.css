@@ -1,0 +1,180 @@
+body{
+  font-family: "Source sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid{
+  max-width: 1200px;
+}
+
+.btn-lg{
+  padding: 16px 32px;
+}
+
+.btn-primary{
+  background: #34495e;
+  border-color: #2c3e50;
+}
+
+
+.btn-primary:hover{
+  background: #2c3e50;
+  border-color: #34495e;
+}
+
+.form-control{
+  height: 50;
+  padding: 12px 24px;
+}
+
+.lead{
+  font-size: 1.8em;
+}
+
+.info{
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  padding:  0px 0px 25px 0px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-default{
+  background: #34495e;
+  border-color: transparent;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #7f8c9d;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+  background: #fff;
+  border-color: #34495e;
+  color: #2c3e50;
+}
+
+.navbar-default .navbar-toggle{
+  background: #34495e;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.open:hover,
+.navbar-default .navbar-nav>.open:focus{
+  color: #2c3e50;
+  background-color: #fff;
+}
+
+.navbar-brand{
+  padding: 25px;
+  height: auto !important;
+}
+
+.navbar-toggle{
+  padding: 12px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  border-radius: 0px;
+}
+
+.jumbotron{
+  color: #fefefe;
+  margin-bottom: 0px;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.jumbotron#home{
+  background: url('../img/bck/bck1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron#testimonials{
+  background: url('../img/bck/bck2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron#portfolio{
+  background: url('../img/bck/bck3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1{
+  margin-bottom: 40px;
+}
+
+#services{
+  background: #34495e;
+}
+#team{
+  background: #16a085;
+}
+#contact{
+  background: #c0392b;
+}
+#services, #contact, #team{
+  text-align: center;
+  padding: 48px;
+  color: #fefefe;
+}
+
+#contact .page-header small, #team .page-header small, #services .page-header small{
+  color: #fefefe;
+}
+
+#services img, #team img{
+  border-radius: 50%;
+  border: 8px solid #dddddd;
+  margin: 5px;
+}
+
+#services img:hover, #team img:hover{
+  opacity: 0.85;
+}
+
+blockquote:before{content: "\201C";}
+blockquote:after{content: "\201D";}
+
+footer{
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background: #34495e;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer a:hover{
+color: #fefefe;
+}
+
+@media (min-width: 768px){
+  .navbar-nav>li>a{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .jumbotron{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}

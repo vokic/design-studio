@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esign Store</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100|Source+Sans+Pro:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+
+    <script>
+      $("#team img") tooltip();
+      var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1500,
+    });
+    </script>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">The Design Store</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+              <li><a data-easing="linear" href="#home">Home</a></li>
+              <li><a data-easing="linear" href="#services">Services</a></li>
+              <li><a data-easing="linear" href="#testimonials">Testimonials</a></li>
+              <li><a data-easing="linear" href="#team">Team</a></li>
+              <li><a data-easing="linear" href="#portfolio">Portfolio</a></li>
+              <li><a data-easing="linear" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">
+    <span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title" id="myModal">Login or Register</h4>
+    </div>
+    <div class="modal-body">
+    <form action="#" method="POST">
+    <div class="form-group">
+    <input type="email" class="form-control input-xlarge" placeholder="Email">
+    </div>
+    <div class="form-group">
+    <input type="password" class="form-control" name="" placeholder="Password">
+    </div>
+    <div class="form-group">
+    <input type="Submit" class="btn btn-primary" value="Login">
+    <input type="Submit" class="btn btn-primary" value="Register">
+    </div>
+    </form>
+    </div>
+    <div class="modal-footer">
+    <a href="#" class="btn btn-primary" data-dismiss="modal">Forgot Password?</a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+<div class="jumbotron" id="home">
+  <div class="container-fluid">
+    <h1>The Design Store</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <p><a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login">My Account</a></p>
+  </div>
+</div>
+
+<div id="services">
+  <div class="container-fluid">
+    <div class="page-header">
+      <h1>Our Services <small>for you</small></h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/icons/Icons (1).png" width="30%" alt="">
+        <p class="lead">Design</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (2).png" width="30%" alt="">
+        <p class="lead">Mobile</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (3).png" width="30%" alt="">
+        <p class="lead">Accessories</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/icons/Icons (4).png" width="30%" alt="">
+        <p class="lead">Testing</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (5).png" width="30%" alt="">
+        <p class="lead">Gift Options</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (6).png" width="30%" alt="">
+        <p class="lead">Clean Energy</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/icons/Icons (7).png" width="30%" alt="">
+        <p class="lead">Archytecture</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (8).png" width="30%" alt="">
+        <p class="lead">Sports</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (9).png" width="30%" alt="">
+        <p class="lead">Transportation</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/icons/Icons (10).png" width="30%" alt="">
+        <p class="lead">Service</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (11).png" width="30%" alt="">
+        <p class="lead">eCommerce</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/icons/Icons (12).png" width="30%" alt="">
+        <p class="lead">Science</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron" id="testimonials">
+  <div class="container-fluid">
+    <h1>Testimonials</h1>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &mdash; Pera Peric, 2013</blockquote>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &mdash; Pera Peric, 2013</blockquote>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &mdash; Pera Peric, 2013</blockquote>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &mdash; Pera Peric, 2013</blockquote>
+  </div>
+</div>
+
+<div id="team">
+  <div class="container-fluid">
+    <div class="page-header">
+      <h1>Our Team <small>of experts</small></h1>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
+        <img data-toggle="tooltip" data-placement="bottom" title="Boba Jones" src="img/avatars/avatar (1).jpg" alt="">
+        <p class="lead">CEO and Co Founder</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-3">
+        <img data-toggle="tooltip" data-placement="bottom" title="Buba Hones" src="img/avatars/avatar (2).jpg" alt="">
+        <p class="lead">Lead Designer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-3">
+        <img data-toggle="tooltip" data-placement="bottom" title="Boarbara Johansson" src="img/avatars/avatar (3).jpg" alt="">
+        <p class="lead">Graphic Designer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Betty McJonson" src="img/avatars/avatar (4).jpg" alt="">
+        <p class="lead">Software architect</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Bob Jones" src="img/avatars/avatar (5).jpg" alt="">
+        <p class="lead">Web Developer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img src="img/avatars/avatar (6).jpg" alt="">
+        <p class="lead">PS Expert</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Bretta Jameson" src="img/avatars/avatar (7).jpg" alt="">
+        <p class="lead">Java Developer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Bigulia Jamestown" src="img/avatars/avatar (8).jpg" alt="">
+        <p class="lead">WordPress Guru</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Baby Jones" src="img/avatars/avatar (9).jpg" alt="">
+        <p class="lead">Web Developer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Bisexual Dzomba" src="img/avatars/avatar (10).jpg" alt="">
+        <p class="lead">CSS Pro</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img  data-toggle="tooltip" data-placement="bottom" title="Betty Page" src="img/avatars/avatar (11).jpg" alt="">
+        <p class="lead">PHP Programmer</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <img data-toggle="tooltip" data-placement="bottom" title="Blonde Whore"  src="img/avatars/avatar (12).jpg" alt="">
+        <p class="lead">Asshole</p>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron" id="portfolio">
+  <div class="container-fluid">
+    <h1>Our Portfolio</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p><a href="#" class="button btn-primary btn-lg">View Portfolio</a></p>
+  </div>
+</div>
+
+<div id="contact">
+<div class="container-fluid">
+<div class="page-header">
+<h1>Contact <small>us anytime</small></h1></div>
+<form action="#" method="GET">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="name" name="Name" required>
+</div>
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Email" name="Email" required>
+</div>
+<div class="form-group">
+<input type="tel" class="form-control" placeholder="Phone" name="Phone">
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Address" name="Address" required>
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Subject" name="Subject" required>
+</div>
+<div class="form-group">
+<textarea class="form-control" placeholder="Message" name="Message" rows="5" required></textarea>
+</div>
+<input type="submit" class="btn btn-primary btn-lg" value="Submit">
+</form>
+</div>
+</div>
+
+
+<footer>
+<div class="container-fluid">
+  <a data-easing="linear" href="#home">Home</a> |
+  <a data-easing="linear" href="#services">Services</a> |
+  <a data-easing="linear" href="#testimonials">Testimonials</a> |
+  <a data-easing="linear" href="#team">Team</a> |
+  <a data-easing="linear" href="#portfolio">Portfolio</a> |
+  <a data-easing="linear" href="#contact">Contact</a> |
+</div>
+</footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]',
+      {
+      speed: 1500,
+    });
+    </script>
+
+
+
+
+
+  </body>
+</html>
